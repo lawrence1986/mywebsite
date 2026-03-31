@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration</title>
+</head>
+
+<body>
+
+<h2>Student Registration</h2>
+
+<form action="insert.php" method="POST">
+
+Full Name:<br>
+<input type="text" name="fullname" required><br><br>
+
+Email:<br>
+<input type="email" name="email"><br><br>
+
+Phone:<br>
+<input type="text" name="phone"><br><br>
+
+Course:<br>
+<input type="text" name="course"><br><br>
+
+<input type="submit" value="Register Student">
+
+</form>
+
+<br>
+<a href="view_students.php">View Students</a>
+
+</body>
+</html
